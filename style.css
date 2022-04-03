@@ -1,4 +1,4 @@
-* {padding: 0px; margin: 0px;border: 0px;}
+* {padding: 0px; margin: 0px;border: 0px; box-sizing: border-box;}
 body{
     font-family: Arial, Helvetica, sans-serif;
     
@@ -30,13 +30,16 @@ i {
     text-align: center;
     padding-top: 40px;
     font-size: 20px;
-
 }
-li {
-    display: block;
-
+.tecnologia {
+    background-color: rgb(100, 100, 255);
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 .perfil {
     border-radius: 50%;
 }
@@ -44,12 +47,7 @@ li {
     padding-top: 15px;
     color:rgb(100, 100, 255);
     text-align: center;
-
-}
-.tecnologias {
-    display: flex;
-    justify-content: center;
-}
+}  
 .bartech{
     background-color: rgb(100, 100, 255);
     text-align: center;
@@ -58,7 +56,17 @@ li {
     padding: 7px;
     border-radius: 5px;
 }
-.cythara1 {
-    max-width: 700px;
-    
+.centro {
+    display: flex;
+    justify-content: center;
+}
+.estante {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+.carrossel {
+    width: 600px;
+    overflow: hidden;
+    display: flex;
 }
