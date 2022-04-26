@@ -21,7 +21,7 @@ body{
 }
 i {
     color: white;
-    padding-left: 15px;
+    padding: 15px;
 }
 .ap1 {
     background-color: rgb(158, 199, 192);
@@ -62,11 +62,28 @@ i {
 }
 .estante {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: grey;
+    color: white;
+    
 }
 .carrossel {
     width: 600px;
     overflow: hidden;
     display: flex;
+    margin: 0px 5px;
+    
+}
+.itens  {
+    border-radius: 15px;
+    margin: 5px 10px 5px 0px;
+    width: 500px;
+    height: 250px;
+}
+.botesrolagem1, .botesrolagem2 {
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
